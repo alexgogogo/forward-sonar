@@ -1,0 +1,1225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1322</width>
+    <height>817</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1030</width>
+    <height>760</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>前视声呐上位机</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QWidget" name="widget" native="true">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QWidget" name="widget_2" native="true">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QGroupBox" name="groupBox_2">
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>200</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="title">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_4" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QWidget" name="widget_5" native="true">
+            <layout class="QVBoxLayout" name="verticalLayout_3">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="MyOpenGLWidget" name="openGLWidget"/>
+             </item>
+             <item>
+              <widget class="QTabWidget" name="tabWidget">
+               <property name="enabled">
+                <bool>true</bool>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>200</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>200</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QWidget#tab
+{
+	background-color: rgb(186, 214, 241);
+	
+}
+QWidget#tab_2
+{
+	background-color: rgb(186, 214, 241);
+}
+QWidget#tab_3
+{
+	background-color: rgb(186, 214, 241);
+}
+QWidget#tab_4
+{
+	background-color: rgb(186, 214, 241);
+}</string>
+               </property>
+               <property name="currentIndex">
+                <number>2</number>
+               </property>
+               <widget class="QWidget" name="tab">
+                <property name="enabled">
+                 <bool>true</bool>
+                </property>
+                <attribute name="title">
+                 <string>声纳控制</string>
+                </attribute>
+                <layout class="QHBoxLayout" name="horizontalLayout_3">
+                 <property name="spacing">
+                  <number>6</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>9</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>9</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>9</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>9</number>
+                 </property>
+                 <item>
+                  <widget class="QGroupBox" name="groupBox">
+                   <property name="minimumSize">
+                    <size>
+                     <width>300</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>300</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="title">
+                    <string>工作控制</string>
+                   </property>
+                   <widget class="QScrollBar" name="horizontalScrollBar">
+                    <property name="geometry">
+                     <rect>
+                      <x>100</x>
+                      <y>40</y>
+                      <width>85</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>85</width>
+                      <height>0</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>85</width>
+                      <height>16777215</height>
+                     </size>
+                    </property>
+                    <property name="minimum">
+                     <number>1</number>
+                    </property>
+                    <property name="maximum">
+                     <number>30</number>
+                    </property>
+                    <property name="singleStep">
+                     <number>1</number>
+                    </property>
+                    <property name="pageStep">
+                     <number>1</number>
+                    </property>
+                    <property name="value">
+                     <number>10</number>
+                    </property>
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_4">
+                    <property name="geometry">
+                     <rect>
+                      <x>10</x>
+                      <y>40</y>
+                      <width>72</width>
+                      <height>15</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>工作量程：</string>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="edit_range">
+                    <property name="geometry">
+                     <rect>
+                      <x>210</x>
+                      <y>40</y>
+                      <width>51</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>50</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_meter">
+                    <property name="geometry">
+                     <rect>
+                      <x>270</x>
+                      <y>40</y>
+                      <width>21</width>
+                      <height>16</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>米</string>
+                    </property>
+                   </widget>
+                   <widget class="QCheckBox" name="checkBox_fps">
+                    <property name="geometry">
+                     <rect>
+                      <x>20</x>
+                      <y>80</y>
+                      <width>91</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>帧率限制</string>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="edit_fps">
+                    <property name="geometry">
+                     <rect>
+                      <x>210</x>
+                      <y>80</y>
+                      <width>51</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>20</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_fps">
+                    <property name="geometry">
+                     <rect>
+                      <x>270</x>
+                      <y>80</y>
+                      <width>31</width>
+                      <height>16</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>fps</string>
+                    </property>
+                   </widget>
+                   <widget class="QPushButton" name="button_start">
+                    <property name="geometry">
+                     <rect>
+                      <x>70</x>
+                      <y>110</y>
+                      <width>70</width>
+                      <height>28</height>
+                     </rect>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>70</width>
+                      <height>16777215</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>启动</string>
+                    </property>
+                   </widget>
+                   <widget class="QPushButton" name="button_stop">
+                    <property name="enabled">
+                     <bool>false</bool>
+                    </property>
+                    <property name="geometry">
+                     <rect>
+                      <x>150</x>
+                      <y>110</y>
+                      <width>70</width>
+                      <height>28</height>
+                     </rect>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>70</width>
+                      <height>16777215</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>停止</string>
+                    </property>
+                   </widget>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QGroupBox" name="groupBox_3">
+                   <property name="minimumSize">
+                    <size>
+                     <width>300</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>300</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="title">
+                    <string>发射接收</string>
+                   </property>
+                   <widget class="QLabel" name="label_7">
+                    <property name="geometry">
+                     <rect>
+                      <x>20</x>
+                      <y>40</y>
+                      <width>81</width>
+                      <height>16</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>发射脉宽：</string>
+                    </property>
+                   </widget>
+                   <widget class="QScrollBar" name="hScrollBar_pulse">
+                    <property name="geometry">
+                     <rect>
+                      <x>100</x>
+                      <y>40</y>
+                      <width>85</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>85</width>
+                      <height>0</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>85</width>
+                      <height>16777215</height>
+                     </size>
+                    </property>
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_gain">
+                    <property name="geometry">
+                     <rect>
+                      <x>20</x>
+                      <y>80</y>
+                      <width>81</width>
+                      <height>16</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>接收增益：</string>
+                    </property>
+                   </widget>
+                   <widget class="QScrollBar" name="hScrollBar_gain">
+                    <property name="geometry">
+                     <rect>
+                      <x>100</x>
+                      <y>80</y>
+                      <width>85</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>85</width>
+                      <height>0</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>85</width>
+                      <height>16777215</height>
+                     </size>
+                    </property>
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="edit_pulse">
+                    <property name="geometry">
+                     <rect>
+                      <x>200</x>
+                      <y>40</y>
+                      <width>51</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>320</string>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="edit_gain">
+                    <property name="geometry">
+                     <rect>
+                      <x>200</x>
+                      <y>80</y>
+                      <width>51</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>3</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_9">
+                    <property name="geometry">
+                     <rect>
+                      <x>260</x>
+                      <y>40</y>
+                      <width>31</width>
+                      <height>16</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>微秒</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_10">
+                    <property name="geometry">
+                     <rect>
+                      <x>260</x>
+                      <y>80</y>
+                      <width>31</width>
+                      <height>16</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>档</string>
+                    </property>
+                   </widget>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QGroupBox" name="groupBox_5">
+                   <property name="minimumSize">
+                    <size>
+                     <width>300</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>300</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="title">
+                    <string>数据处理</string>
+                   </property>
+                   <widget class="QLabel" name="label_threshold">
+                    <property name="geometry">
+                     <rect>
+                      <x>20</x>
+                      <y>40</y>
+                      <width>81</width>
+                      <height>16</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string> 检测门限：</string>
+                    </property>
+                   </widget>
+                   <widget class="QScrollBar" name="hScrollBar_threshold">
+                    <property name="geometry">
+                     <rect>
+                      <x>110</x>
+                      <y>40</y>
+                      <width>85</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>85</width>
+                      <height>0</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>85</width>
+                      <height>16777215</height>
+                     </size>
+                    </property>
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="edit_threshold">
+                    <property name="geometry">
+                     <rect>
+                      <x>210</x>
+                      <y>40</y>
+                      <width>51</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>75</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_12">
+                    <property name="geometry">
+                     <rect>
+                      <x>270</x>
+                      <y>40</y>
+                      <width>31</width>
+                      <height>16</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Agency FB</family>
+                      <pointsize>10</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>%</string>
+                    </property>
+                   </widget>
+                  </widget>
+                 </item>
+                 <item>
+                  <spacer name="horizontalSpacer_3">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>40</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                </layout>
+               </widget>
+               <widget class="QWidget" name="tab_2">
+                <property name="enabled">
+                 <bool>true</bool>
+                </property>
+                <attribute name="title">
+                 <string>数据记录</string>
+                </attribute>
+                <widget class="QGroupBox" name="groupBox_4">
+                 <property name="geometry">
+                  <rect>
+                   <x>10</x>
+                   <y>10</y>
+                   <width>505</width>
+                   <height>142</height>
+                  </rect>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>505</width>
+                   <height>142</height>
+                  </size>
+                 </property>
+                 <property name="title">
+                  <string/>
+                 </property>
+                 <widget class="QLabel" name="label_13">
+                  <property name="geometry">
+                   <rect>
+                    <x>30</x>
+                    <y>10</y>
+                    <width>71</width>
+                    <height>28</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>保存路径：</string>
+                  </property>
+                 </widget>
+                 <widget class="QLineEdit" name="lineEdit6">
+                  <property name="geometry">
+                   <rect>
+                    <x>110</x>
+                    <y>10</y>
+                    <width>315</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>315</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>315</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_3">
+                  <property name="geometry">
+                   <rect>
+                    <x>440</x>
+                    <y>10</y>
+                    <width>45</width>
+                    <height>28</height>
+                   </rect>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>45</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>45</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>...</string>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_14">
+                  <property name="geometry">
+                   <rect>
+                    <x>30</x>
+                    <y>60</y>
+                    <width>121</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>记录文件名前缀：</string>
+                  </property>
+                 </widget>
+                 <widget class="QLineEdit" name="lineEdit7">
+                  <property name="geometry">
+                   <rect>
+                    <x>190</x>
+                    <y>60</y>
+                    <width>100</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>100</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>100</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_15">
+                  <property name="geometry">
+                   <rect>
+                    <x>30</x>
+                    <y>100</y>
+                    <width>151</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>记录文件名大小上限：</string>
+                  </property>
+                 </widget>
+                 <widget class="QLineEdit" name="lineEdit8">
+                  <property name="geometry">
+                   <rect>
+                    <x>190</x>
+                    <y>100</y>
+                    <width>100</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>100</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>100</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>2</string>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_3">
+                  <property name="geometry">
+                   <rect>
+                    <x>300</x>
+                    <y>100</y>
+                    <width>21</width>
+                    <height>16</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>GB</string>
+                  </property>
+                 </widget>
+                </widget>
+               </widget>
+               <widget class="QWidget" name="tab_3">
+                <property name="enabled">
+                 <bool>false</bool>
+                </property>
+                <attribute name="title">
+                 <string>数据回放</string>
+                </attribute>
+                <widget class="QGroupBox" name="groupBox_6">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>10</y>
+                   <width>610</width>
+                   <height>145</height>
+                  </rect>
+                 </property>
+                 <property name="title">
+                  <string/>
+                 </property>
+                 <widget class="QLabel" name="label_2">
+                  <property name="geometry">
+                   <rect>
+                    <x>40</x>
+                    <y>10</y>
+                    <width>75</width>
+                    <height>28</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>数据文件：</string>
+                  </property>
+                 </widget>
+                 <widget class="QLineEdit" name="m_dataFileName">
+                  <property name="enabled">
+                   <bool>false</bool>
+                  </property>
+                  <property name="geometry">
+                   <rect>
+                    <x>130</x>
+                    <y>10</y>
+                    <width>360</width>
+                    <height>28</height>
+                   </rect>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>360</width>
+                    <height>28</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>360</width>
+                    <height>28</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>宋体</family>
+                    <pointsize>7</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(186, 214, 241);</string>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="m_btOpenFile">
+                  <property name="geometry">
+                   <rect>
+                    <x>500</x>
+                    <y>10</y>
+                    <width>88</width>
+                    <height>28</height>
+                   </rect>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>88</width>
+                    <height>28</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>88</width>
+                    <height>28</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>...</string>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label">
+                  <property name="geometry">
+                   <rect>
+                    <x>40</x>
+                    <y>50</y>
+                    <width>75</width>
+                    <height>22</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>回放进度：</string>
+                  </property>
+                 </widget>
+                 <widget class="QSlider" name="horizontalSlider">
+                  <property name="geometry">
+                   <rect>
+                    <x>130</x>
+                    <y>50</y>
+                    <width>465</width>
+                    <height>20</height>
+                   </rect>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>465</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>465</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="maximum">
+                   <number>10</number>
+                  </property>
+                  <property name="sliderPosition">
+                   <number>0</number>
+                  </property>
+                  <property name="tracking">
+                   <bool>true</bool>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="m_btStart">
+                  <property name="enabled">
+                   <bool>false</bool>
+                  </property>
+                  <property name="geometry">
+                   <rect>
+                    <x>250</x>
+                    <y>100</y>
+                    <width>65</width>
+                    <height>27</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Agency FB</family>
+                    <pointsize>9</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>开始</string>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="m_btPause">
+                  <property name="enabled">
+                   <bool>false</bool>
+                  </property>
+                  <property name="geometry">
+                   <rect>
+                    <x>320</x>
+                    <y>100</y>
+                    <width>65</width>
+                    <height>27</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Agency FB</family>
+                    <pointsize>9</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>暂停</string>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="m_btLastPing">
+                  <property name="enabled">
+                   <bool>false</bool>
+                  </property>
+                  <property name="geometry">
+                   <rect>
+                    <x>390</x>
+                    <y>100</y>
+                    <width>65</width>
+                    <height>27</height>
+                   </rect>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>93</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Agency FB</family>
+                    <pointsize>9</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>上一帧</string>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="m_btNextPing">
+                  <property name="enabled">
+                   <bool>false</bool>
+                  </property>
+                  <property name="geometry">
+                   <rect>
+                    <x>460</x>
+                    <y>100</y>
+                    <width>65</width>
+                    <height>27</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Agency FB</family>
+                    <pointsize>9</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>下一帧</string>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="m_btStop">
+                  <property name="enabled">
+                   <bool>false</bool>
+                  </property>
+                  <property name="geometry">
+                   <rect>
+                    <x>530</x>
+                    <y>100</y>
+                    <width>65</width>
+                    <height>27</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Agency FB</family>
+                    <pointsize>9</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>结束</string>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_16">
+                  <property name="geometry">
+                   <rect>
+                    <x>40</x>
+                    <y>110</y>
+                    <width>72</width>
+                    <height>15</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>回放速度:</string>
+                  </property>
+                 </widget>
+                 <widget class="QComboBox" name="comboBox">
+                  <property name="geometry">
+                   <rect>
+                    <x>120</x>
+                    <y>105</y>
+                    <width>81</width>
+                    <height>22</height>
+                   </rect>
+                  </property>
+                  <item>
+                   <property name="text">
+                    <string>×1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>×2</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>×4</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>×8</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>×16</string>
+                   </property>
+                  </item>
+                 </widget>
+                </widget>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1322</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>  工作模式（M）</string>
+    </property>
+    <addaction name="m_collet"/>
+    <addaction name="m_replay"/>
+    <addaction name="m_exit"/>
+   </widget>
+   <widget class="QMenu" name="menu_C">
+    <property name="title">
+     <string> 设置（C）</string>
+    </property>
+    <addaction name="m_colorSet"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_C"/>
+  </widget>
+  <action name="m_collet">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>采集模式（O）</string>
+   </property>
+   <property name="font">
+    <font/>
+   </property>
+  </action>
+  <action name="m_replay">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>数据回放（R)</string>
+   </property>
+  </action>
+  <action name="m_exit">
+   <property name="text">
+    <string>退出（Q）</string>
+   </property>
+  </action>
+  <action name="m_colorSet">
+   <property name="text">
+    <string>显示设置(D)</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MyOpenGLWidget</class>
+   <extends>QOpenGLWidget</extends>
+   <header location="global">myopenglwidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

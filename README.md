@@ -1,5 +1,8 @@
-<img width="1323" height="854" alt="image" src="https://github.com/user-attachments/assets/4da540df-4e97-4602-aa3e-63d8b32dd4fc" />
+主界面
+<img width="1323" height="854" alt="image" src="https://github.com/user-attachments/assets/d315a49c-b38f-48b3-8132-91bf1c88f74f" />
 
-<img width="1190" height="805" alt="image" src="https://github.com/user-attachments/assets/ff4cfe22-e2fc-4ee6-88f0-f1bcbbe32cda" />
+回放功能
+<img width="1323" height="854" alt="image" src="https://github.com/user-attachments/assets/0622e0ad-1145-48f1-a438-45733bd9a06c" />
 
-<img width="1190" height="805" alt="image" src="https://github.com/user-attachments/assets/c8e66c6d-22b7-4adc-a6a8-0040712e9add" />
+颜色设置
+<img width="1323" height="854" alt="image" src="https://github.com/user-attachments/assets/2407d2b3-580a-4122-a71a-1958fbb24acc" />
